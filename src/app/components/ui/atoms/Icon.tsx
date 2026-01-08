@@ -32,6 +32,10 @@ export function Wrapper14({ children }: React.PropsWithChildren<{}>) {
   return <IconWrapper size={14}>{children}</IconWrapper>;
 }
 
+export function Wrapper20({ children }: React.PropsWithChildren<{}>) {
+  return <IconWrapper size={20}>{children}</IconWrapper>;
+}
+
 export function ChevronDown() {
   return (
     <Wrapper16>
