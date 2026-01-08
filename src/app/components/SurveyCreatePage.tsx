@@ -546,9 +546,7 @@ export default function SurveyCreatePage({ onShowModal, onFormDirtyChange, onSav
                     <div className="flex flex-col items-center justify-center overflow-clip rounded-[inherit] size-full">
                       <div className="content-stretch flex flex-col items-center justify-center p-[16px] relative size-full">
                         <div className="content-stretch flex gap-[4px] items-center overflow-clip relative shrink-0">
-                          <Wrapper16>
-                            <UploadIcon />
-                          </Wrapper16>
+                          <UploadIcon />
                           <p className="leading-[27px] not-italic relative shrink-0 text-[16px] text-[rgba(12,15,15,0.52)] text-nowrap tracking-[-0.08px]">
                             파일을 여기에 드래그하거나, 클릭하여 업로드하세요.
                           </p>
@@ -563,9 +561,7 @@ export default function SurveyCreatePage({ onShowModal, onFormDirtyChange, onSav
                     <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-[308px]">
                       <button className="bg-[rgba(255,255,255,0)] content-stretch flex gap-[2px] h-[32px] items-center justify-center px-[12px] py-0 relative rounded-[8px] shrink-0 hover:bg-gray-50 transition-colors">
                         <div aria-hidden="true" className="absolute border border-[rgba(12,15,15,0.19)] border-solid inset-0 pointer-events-none rounded-[8px]" />
-                        <Wrapper16>
-                          <UploadIcon color="#2A2C2C" opacity={1} />
-                        </Wrapper16>
+                        <UploadIcon color="#2A2C2C" opacity={1} />
                         <p className="leading-[20px] not-italic relative shrink-0 text-[#2a2c2c] text-[14px] text-nowrap tracking-[-0.042px] font-semibold">
                           파일 추가
                         </p>
@@ -577,9 +573,7 @@ export default function SurveyCreatePage({ onShowModal, onFormDirtyChange, onSav
                       </div>
                     </div>
                     <button className="content-stretch flex gap-[2px] h-[32px] items-center justify-center px-[12px] py-0 relative rounded-[8px] shrink-0 cursor-not-allowed">
-                      <Wrapper16>
-                        <DeleteIcon />
-                      </Wrapper16>
+                      <DeleteIcon />
                       <p className="leading-[20px] not-italic relative shrink-0 text-[14px] text-[rgba(12,15,15,0.19)] text-nowrap tracking-[-0.042px] font-semibold">
                         전체 삭제
                       </p>

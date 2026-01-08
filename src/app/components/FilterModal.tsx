@@ -291,9 +291,9 @@ export default function FilterModal({ isOpen, onClose, onApply }: FilterModalPro
                 {/* 초기화 */}
                 <button onClick={handleReset} className="content-stretch flex gap-[2px] items-center justify-center relative rounded-[4px] shrink-0 hover:bg-gray-50 px-[8px] py-[8px] transition-colors">
                   <div className="relative shrink-0 size-[16px]">
-                    <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
-                      <path d={svgPaths.p38ed0f00} fill="#2A2C2C" />
-                    </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M8.00008 13.3333C6.51119 13.3333 5.25008 12.8166 4.21675 11.7833C3.18341 10.75 2.66675 9.48885 2.66675 7.99996C2.66675 6.51107 3.18341 5.24996 4.21675 4.21663C5.25008 3.18329 6.51119 2.66663 8.00008 2.66663C8.76675 2.66663 9.50008 2.82496 10.2001 3.14163C10.9001 3.45829 11.5001 3.91107 12.0001 4.49996V2.66663H13.3334V7.33329H8.66675V5.99996H11.4667C11.1112 5.37774 10.6251 4.88885 10.0084 4.53329C9.39175 4.17774 8.7223 3.99996 8.00008 3.99996C6.88897 3.99996 5.94453 4.38885 5.16675 5.16663C4.38897 5.9444 4.00008 6.88885 4.00008 7.99996C4.00008 9.11107 4.38897 10.0555 5.16675 10.8333C5.94453 11.6111 6.88897 12 8.00008 12C8.85564 12 9.62786 11.7555 10.3167 11.2666C11.0056 10.7777 11.489 10.1333 11.7667 9.33329H13.1667C12.8556 10.5111 12.2223 11.4722 11.2667 12.2166C10.3112 12.9611 9.2223 13.3333 8.00008 13.3333Z" fill="#2A2C2C"/>
+                  </svg>
                   </div>
                   <p className="leading-[22px] not-italic relative shrink-0 text-[#2a2c2c] text-[16px] text-nowrap tracking-[-0.08px] font-semibold">
                     초기화

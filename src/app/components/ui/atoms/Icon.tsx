@@ -76,21 +76,23 @@ export function AddIcon() {
   );
 }
 
-export function UploadIcon({ color = "#0C0F0F", opacity = "0.52" }: { color?: string; opacity?: string | number }) {
+export function UploadIcon({ color = "#0C0F0F", opacity = 0.52 }: { color?: string; opacity?: number }) {
+  const opacityValue = typeof opacity === "string" ? parseFloat(opacity) : opacity;
   return (
     <Wrapper20>
       <g id="ic_upload">
-        <path d={uploadIconSvgPaths.p2d04cff0} fill={color} fillOpacity={opacity} id="Vector" />
+        <path d={uploadIconSvgPaths.p2d04cff0} fill={color} fillOpacity={opacityValue} id="Vector" />
       </g>
     </Wrapper20>
   );
 }
 
-export function DeleteIcon() {
+export function DeleteIcon({ color = "#0C0F0F", opacity = 0.52 }: { color?: string; opacity?: number } = {}) {
+  const opacityValue = typeof opacity === "string" ? parseFloat(opacity) : opacity;
   return (
     <Wrapper14>
       <g id="ic_delete">
-        <path d={uploadIconSvgPaths.p1f7bfa00} fill="var(--fill-0, #0C0F0F)" fillOpacity="0.52" id="Vector" />
+        <path d={uploadIconSvgPaths.p1f7bfa00} fill={color} fillOpacity={opacityValue} id="Vector" />
       </g>
     </Wrapper14>
   );
